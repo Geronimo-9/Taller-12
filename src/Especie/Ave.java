@@ -16,4 +16,8 @@ public class Ave implements Volador, Cantante {
         System.out.println("Estoy cantando");
     }
 
+    @Override
+    public void ladrar() {
+        System.out.println("Estoy ladrando"); //Implementacion fuera del contexto de las aves.
+    }
 }
