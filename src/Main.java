@@ -1,5 +1,7 @@
 import Especie.Ave;
+import Especie.Persona_2;
 import Especie.Pez;
+
 import accionesPez.Nadador;
 import accionesPez.Respirador;
 
@@ -31,6 +33,22 @@ nemo.nadar();
 
 
     loro.ladrar(); //Implementacion fuera del contexto de las aves
+
+
+
+
+
+        //Ejercicio 1 parte 2, Clase persona (Persona_2) con las interfaces trabajador y hablador.
+
+
+        Persona_2 geronimo = new Persona_2();
+
+        geronimo.hablar();
+        geronimo.trabajar();
+
+
+
+
 
 
 
