@@ -1,9 +1,7 @@
+import Especie.Animal;
 import Especie.Ave;
 import Especie.Persona_2;
 import Especie.Pez;
-
-import accionesPez.Nadador;
-import accionesPez.Respirador;
 
 
 
@@ -28,7 +26,7 @@ nemo.nadar();
 
 //Ejercicio 3, mal uso de interfaz y no implementacion de los metodos de la interfaz
 
-        // 1. Entrar a Persona
+        // 1. Entrar a Especie Persona
         // 2. Entrar a la interfaaz Movimientos
 
 
@@ -46,8 +44,17 @@ nemo.nadar();
         geronimo.hablar();
         geronimo.trabajar();
 
+// Ejercicio 2 parte 2, Clase animal con las interfaces volador y nadador (Se usarán las interfaces ya creadas)
+
+        Animal pato = new Animal();
+        pato.nadar();
+        pato.volar();
 
 
+        //Ejercicio 3 parte 2, mal  uso de interfaz y no implementacion de los metodos de la interfaz
+
+        // 1. Entrar a Especie Persona (Acá se explica nuevamente el ejercicio)
+        // 2. Entrar a la interfaaz Movimientos (Acá se explica nuevamente el ejercicio)
 
 
 

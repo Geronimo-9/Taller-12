@@ -7,7 +7,7 @@ import accionesPersona.Movimientos;
 /*
 public class Persona implements Movimientos {
 
-//Coomo no hay nada acá, el compilador me generará un error ya que estoy obligado a implementarlo.
+//Coomo no hay nada acá, el compilador me generará un error ya que estoy obligado a implementarlos.
 
 
 
